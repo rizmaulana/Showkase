@@ -1,7 +1,7 @@
 apply plugin: 'com.vanniktech.maven.publish'
 
 // https://vanniktech.github.io/gradle-maven-publish-plugin/other/
-publishing {
+//publishing {
     // Uncomment to configure custom maven repository
 //    repositories {
 //        maven {
@@ -13,4 +13,4 @@ publishing {
 //            }
 //        }
 //    }
-}
+//}
