@@ -74,7 +74,7 @@ internal fun ShowkaseComponentDetailScreen(
                         ShowkaseComponentCardType.DISPLAY_SCALED -> DisplayScaledComponentCard(
                             metadata
                         ) */
-                        ShowkaseComponentCardType.RTL -> RTLComponentCard(metadata)
+                        //ShowkaseComponentCardType.RTL -> RTLComponentCard(metadata)
                         ShowkaseComponentCardType.DARK_MODE -> DarkModeComponentCard(metadata)
                         else -> Box(modifier = Modifier.height(1.dp))
                     }
